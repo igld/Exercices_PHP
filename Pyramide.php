@@ -28,6 +28,7 @@ else{
     echo "<h2>Entrez un nombre d'étoile(s) SVP (un entier positif)</h2>";
 }
 
+
 function AfficheEtoile($nbreEtoile){
     for($i=0; $i<=$nbreEtoile; $i++){
         echo "*";
