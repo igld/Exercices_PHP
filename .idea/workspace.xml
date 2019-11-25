@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f031872-1dc9-4739-935e-9e10186cb42d" name="Default Changelist" comment="" />
+    <list default="true" id="4f031872-1dc9-4739-935e-9e10186cb42d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exo2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exo2/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pyramide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pyramide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablesDeMultiplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/TablesDeMultiplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +46,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="mRtZDWod" />
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="76c660e6-3686-495c-a59a-3ab16b0bcd25" name="localhost" />
     </servers>
   </component>
-  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/CoursPHP/Exercices" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/CoursPHP/Exercices/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="/usr/share/php" />
     </include_path>
@@ -55,9 +76,24 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,22 +107,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TablesDeMultiplication.php">
-    <configuration name="TablesDeMultiplication.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercices/TablesDeMultiplication.php" useBuiltInWebServerPort="true">
+  <component name="RunManager">
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" router_script="$PROJECT_DIR$/../index.php" use_router_script="true">
       <method v="2" />
     </configuration>
-    <configuration name="Pyramide.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Pyramide.php">
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="localhost">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="localhost">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" server_name="localhost" start_url="/CoursPHP/Exercices/Pyramide.php">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.TablesDeMultiplication.php" />
-        <item itemvalue="PHP Script.Pyramide.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,7 +141,83 @@
       <workItem from="1573589948562" duration="2058000" />
       <workItem from="1573592023320" duration="1496000" />
       <workItem from="1573646831498" duration="33000" />
-      <workItem from="1573647115949" duration="611000" />
+      <workItem from="1573647115949" duration="901000" />
+      <workItem from="1573683161165" duration="1165000" />
+      <workItem from="1573684488669" duration="238000" />
+      <workItem from="1573735151413" duration="787000" />
+      <workItem from="1573760669695" duration="190000" />
+      <workItem from="1573761603965" duration="2090000" />
+      <workItem from="1573764406162" duration="350000" />
+      <workItem from="1573814806541" duration="7968000" />
+      <workItem from="1573851026875" duration="69000" />
+      <workItem from="1573923794320" duration="573000" />
+      <workItem from="1573980136787" duration="983000" />
+      <workItem from="1573991631739" duration="654000" />
+      <workItem from="1573992803252" duration="59000" />
+      <workItem from="1573992877459" duration="251000" />
+      <workItem from="1574026367633" duration="1591000" />
+      <workItem from="1574075454338" duration="121000" />
+      <workItem from="1574075609897" duration="237000" />
+      <workItem from="1574084042703" duration="3436000" />
+      <workItem from="1574095494664" duration="2752000" />
+      <workItem from="1574098753417" duration="274000" />
+      <workItem from="1574099496159" duration="402000" />
+      <workItem from="1574099912771" duration="334000" />
+      <workItem from="1574100478426" duration="54000" />
+      <workItem from="1574103937423" duration="3906000" />
+      <workItem from="1574107940361" duration="333000" />
+      <workItem from="1574108292784" duration="52000" />
+      <workItem from="1574108465038" duration="219000" />
+      <workItem from="1574108715695" duration="6000" />
+      <workItem from="1574108843583" duration="101000" />
+      <workItem from="1574109554723" duration="75000" />
+      <workItem from="1574109643966" duration="43000" />
+      <workItem from="1574109704158" duration="365000" />
+      <workItem from="1574110083662" duration="798000" />
+      <workItem from="1574110904552" duration="356000" />
+      <workItem from="1574111277948" duration="155000" />
+      <workItem from="1574111478141" duration="2177000" />
+      <workItem from="1574148282394" duration="820000" />
+      <workItem from="1574149142160" duration="3023000" />
+      <workItem from="1574159658946" duration="886000" />
+      <workItem from="1574172467117" duration="1007000" />
+      <workItem from="1574178075560" duration="71000" />
+      <workItem from="1574194033301" duration="387000" />
+      <workItem from="1574194762488" duration="2058000" />
+      <workItem from="1574199277124" duration="230000" />
+      <workItem from="1574199528506" duration="269000" />
+      <workItem from="1574199816361" duration="489000" />
+      <workItem from="1574201294683" duration="215000" />
+      <workItem from="1574237798368" duration="204000" />
+      <workItem from="1574238031673" duration="723000" />
+      <workItem from="1574238775769" duration="74000" />
+      <workItem from="1574249166417" duration="672000" />
+      <workItem from="1574276610263" duration="99000" />
+      <workItem from="1574277766358" duration="221000" />
+      <workItem from="1574278044156" duration="10000" />
+      <workItem from="1574278826547" duration="431000" />
+      <workItem from="1574279794041" duration="85000" />
+      <workItem from="1574287891541" duration="83000" />
+      <workItem from="1574287993783" duration="411000" />
+      <workItem from="1574321104642" duration="378000" />
+      <workItem from="1574321501961" duration="1140000" />
+      <workItem from="1574323169124" duration="713000" />
+      <workItem from="1574342209021" duration="2366000" />
+      <workItem from="1574344996428" duration="104000" />
+      <workItem from="1574345115640" duration="14000" />
+      <workItem from="1574457436691" duration="123000" />
+      <workItem from="1574457578192" duration="158000" />
+      <workItem from="1574458228729" duration="118000" />
+      <workItem from="1574538384873" duration="447000" />
+      <workItem from="1574538852494" duration="146000" />
+      <workItem from="1574539020165" duration="431000" />
+      <workItem from="1574548521967" duration="438000" />
+      <workItem from="1574587128681" duration="3697000" />
+      <workItem from="1574590976865" duration="271000" />
+      <workItem from="1574596604936" duration="1594000" />
+      <workItem from="1574627583213" duration="520000" />
+      <workItem from="1574675242054" duration="7000" />
+      <workItem from="1574676457158" duration="1885000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en forme Exercices Pyramide">
       <created>1573647449298</created>
@@ -114,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573647449298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mise en forme Exercices Pyramide">
+      <created>1573647815973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573647815973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +242,56 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -132,20 +301,15 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise en forme Exercices Pyramide" />
     <option name="LAST_COMMIT_MESSAGE" value="Mise en forme Exercices Pyramide" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/TablesDeMultiplication.php</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

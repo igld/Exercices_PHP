@@ -1,0 +1,17 @@
+{
+  //   "php.suggest.basic": true,
+   // "editor.quickSuggestions": { "comments": true},
+
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
+      ],
+
+      "emmet.includeLanguages": { "twig": "html" },
+}

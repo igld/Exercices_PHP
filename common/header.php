@@ -22,7 +22,8 @@
             <li><a href="index.php">Accueil</a></li>
             <li><a href="TablesDeMultiplication.php">Table de Multiplication</a></li>
             <li><a href="Pyramide.php">Pyramide</a></li>
-            <li></li>
+            <li><a href="AireEtPerimetreDUnCercle.php">Cercle : Aire et Périmètre</a></li>
+            <li><a href="TrouverNombre.php">Trouver le nombre</a></li>
             <li></li>
 
         </ul>

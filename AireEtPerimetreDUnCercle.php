@@ -37,14 +37,13 @@ if (isset($_GET["rayon"]) && $_GET["rayon"] > 0 && isset($_GET["aire"]) && isset
 } elseif (isset($_GET["rayon"]) && $_GET["rayon"] && isset($_GET["perimetre"])) {
     $rayon = $_GET["rayon"];
     CalculPeriemtreDuCercle($rayon);
-
 } else {
     echo "<h2>sélection un calcul SVP</h2>";
 }
 
 function CalculAireDuCercle($rayon)
 {
-// PI *R*R
+    // Calcul de l'aire d'un cercle = PI*R*R
     $aire = M_PI * $rayon * $rayon;
     echo "<h2>L'aire du cercle est de : $aire</h2>";
 }
