@@ -13,5 +13,7 @@
         "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
       ],
 
-      "emmet.includeLanguages": { "twig": "html" },
+      "emmet.includeLanguages": {
+        "twig": "html"
+      },
 }

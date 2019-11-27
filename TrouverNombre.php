@@ -19,27 +19,27 @@ include("common/header.php");
     if (isset($_GET['reset']) && $_GET['reset'] = 'yes') {
 
         // Mise en Session de la valeur a trouver
-        $_SESSION['$nombreAtrouver'] = rand(0, 100);
+        $_SESSION['nombreATrouver'] = rand(0, 100);
         // Affichage du nombre a trouver pour le debug si besoin
-        // echo $_SESSION['$nombreAtrouver'];
+        // echo $_SESSION['nombreATrouver'];
     }
-    if (isset($_GET['nombre']) && is_numeric($_GET["nombre"]) && isset($_SESSION['$nombreAtrouver'])) {
+    if (isset($_GET['nombre']) && is_numeric($_GET["nombre"]) && isset($_SESSION['nombreATrouver'])) {
 
-        $nombreAtrouver = $_SESSION['$nombreAtrouver'];
+        $nombreATrouver = $_SESSION['nombreATrouver'];
         // Je change le format de la donnée reçue de text en entier pour la comparaison
         $nombre = (int) $_GET['nombre'];
         // Conditions pour afficher plus ou moins ou nombre trouvé
-        if ($nombre > $nombreAtrouver) {
+        if ($nombre > $nombreATrouver) {
             echo "C'est moins que : " . $nombre;
-        } elseif ($nombre === $nombreAtrouver) {
-            echo "<h2>Bravo c'est le bon nombre : " . $nombreAtrouver . "</h2>";
+        } elseif ($nombre === $nombreATrouver) {
+            echo "<h2>Bravo c'est le bon nombre : " . $nombreATrouver . "</h2>";
         } else {
             echo "C'est plus que : " . $nombre;
         }
         // echo "Le nombre proposé : " . $nombre;
     }
     // Vérification si un nombre a trouvé existe bien en session
-    elseif (!isset($_SESSION['$nombreAtrouver'])) {
+    elseif (!isset($_SESSION['nombreATrouver'])) {
         echo "cliquer reinit";
     }
 

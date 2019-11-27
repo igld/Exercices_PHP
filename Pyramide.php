@@ -18,8 +18,7 @@ if (isset($_GET['hauteur']) && $_GET['hauteur'] >= 0 && is_numeric($_GET["hauteu
     for ($i = 0; $i <= $hauteur - 1; $i++) {
         AfficheEtoile($i);
     }
-
-    //descente d'étoiles bonjour les
+    //descente d'étoiles
     for ($i = $hauteur - 2; $i >= 0; $i--) {
         $d = abs($i);
         AfficheEtoile($d);

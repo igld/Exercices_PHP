@@ -24,7 +24,7 @@
             <li><a href="Pyramide.php">Pyramide</a></li>
             <li><a href="AireEtPerimetreDUnCercle.php">Cercle : Aire et Périmètre</a></li>
             <li><a href="TrouverNombre.php">Trouver le nombre</a></li>
-            <li></li>
+            <li><a href="Moyenne.php">Calculer la Moyenne</a></li>
 
         </ul>
     </nav>

@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f031872-1dc9-4739-935e-9e10186cb42d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moyenne.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exo2/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AireEtPerimetreDUnCercle.php" beforeDir="false" afterPath="$PROJECT_DIR$/AireEtPerimetreDUnCercle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pyramide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pyramide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TablesDeMultiplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/TablesDeMultiplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrouverNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/TrouverNombre.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,6 +217,14 @@
       <workItem from="1574627583213" duration="520000" />
       <workItem from="1574675242054" duration="7000" />
       <workItem from="1574676457158" duration="1885000" />
+      <workItem from="1574688875195" duration="86000" />
+      <workItem from="1574693548901" duration="97000" />
+      <workItem from="1574716696941" duration="1291000" />
+      <workItem from="1574718008830" duration="273000" />
+      <workItem from="1574766986389" duration="52000" />
+      <workItem from="1574889828711" duration="634000" />
+      <workItem from="1574891503348" duration="496000" />
+      <workItem from="1574894635236" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en forme Exercices Pyramide">
       <created>1573647449298</created>

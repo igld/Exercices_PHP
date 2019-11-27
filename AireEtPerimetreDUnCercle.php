@@ -38,7 +38,7 @@ if (isset($_GET["rayon"]) && $_GET["rayon"] > 0 && isset($_GET["aire"]) && isset
     $rayon = $_GET["rayon"];
     CalculPeriemtreDuCercle($rayon);
 } else {
-    echo "<h2>sélection un calcul SVP</h2>";
+    echo "<h2>Sélectionnez un calcul SVP</h2>";
 }
 
 function CalculAireDuCercle($rayon)
