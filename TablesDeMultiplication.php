@@ -12,7 +12,6 @@ include("common/header.php");
     <?php
 
 
-
     if (isset($_GET["nombre"]) && is_numeric($_GET["nombre"])) {
         $nombre = (int) $_GET["nombre"];
         //$nombre= (int)$nombre;

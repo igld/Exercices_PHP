@@ -3,7 +3,8 @@ include("common/header.php");
 ?>
 
 
-    <h1>Index</h1>
+<h1>Index</h1>
+<div>
     <form action="#" method="GET">
         <fieldset>
             <legend>Informations</legend>
@@ -14,7 +15,7 @@ include("common/header.php");
             <input type="submit" value="Envoyer">
         </fieldset>
     </form>
-
+</div>
 
 <?php
 if (isset($_GET["nom"])) {
@@ -25,7 +26,7 @@ if (isset($_GET["nom"])) {
 }
 
 ?>
-    <!-- <script src="main.js"> </script> -->
+<!-- <script src="main.js"> </script> -->
 
 <?php
 include("common/footer.php");

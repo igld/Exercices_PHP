@@ -1,9 +1,10 @@
 <?php
+
 include("common/header.php");
 ?>
+
 <h1>Trouver le nombre choisi par l'ordinateur</h1>
 <h1>Entre O et 100</h1>
-
 <div>
     <form action="#" method="GET">
         <input type="text" value="yes" name="reset" id="reset" hidden>
@@ -15,16 +16,15 @@ include("common/header.php");
         <input type="submit" value="Valider le nombre">
     </form>
     <?php
+
     session_start();
     if (isset($_GET['reset']) && $_GET['reset'] = 'yes') {
-
         // Mise en Session de la valeur a trouver
         $_SESSION['nombreATrouver'] = rand(0, 100);
         // Affichage du nombre a trouver pour le debug si besoin
         // echo $_SESSION['nombreATrouver'];
     }
     if (isset($_GET['nombre']) && is_numeric($_GET["nombre"]) && isset($_SESSION['nombreATrouver'])) {
-
         $nombreATrouver = $_SESSION['nombreATrouver'];
         // Je change le format de la donnée reçue de text en entier pour la comparaison
         $nombre = (int) $_GET['nombre'];
@@ -37,16 +37,14 @@ include("common/header.php");
             echo "C'est plus que : " . $nombre;
         }
         // echo "Le nombre proposé : " . $nombre;
-    }
-    // Vérification si un nombre a trouvé existe bien en session
+    } // Vérification si un nombre a trouvé existe bien en session
     elseif (!isset($_SESSION['nombreATrouver'])) {
-        echo "cliquer reinit";
+        echo "<h2>cliquer reinit</h2>";
     }
-
-
     ?>
 </div>
 
 <?php
+
 include("common/footer.php");
 ?>

@@ -6,15 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f031872-1dc9-4739-935e-9e10186cb42d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Moyenne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tableaux.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AireEtPerimetreDUnCercle.php" beforeDir="false" afterPath="$PROJECT_DIR$/AireEtPerimetreDUnCercle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exo2/exo2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exo2/exo2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moyenne.php" beforeDir="false" afterPath="$PROJECT_DIR$/Moyenne.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pyramide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pyramide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectionPersonnage.php" beforeDir="false" afterPath="$PROJECT_DIR$/SelectionPersonnage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablesDeMultiplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/TablesDeMultiplication.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrouverNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/TrouverNombre.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +80,13 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TUHlHoLORq5xY1ntP6c31yV4Fo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -92,25 +106,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.Tableaux.php">
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" router_script="$PROJECT_DIR$/../index.php" use_router_script="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="localhost">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tableaux.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Tableaux.php">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="localhost">
@@ -123,8 +128,20 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -225,6 +242,53 @@
       <workItem from="1574889828711" duration="634000" />
       <workItem from="1574891503348" duration="496000" />
       <workItem from="1574894635236" duration="635000" />
+      <workItem from="1575147914460" duration="700000" />
+      <workItem from="1575149237882" duration="73000" />
+      <workItem from="1575149388546" duration="52000" />
+      <workItem from="1575149463385" duration="288000" />
+      <workItem from="1575190828140" duration="46000" />
+      <workItem from="1575199288121" duration="43000" />
+      <workItem from="1575199345704" duration="33000" />
+      <workItem from="1575286080334" duration="107000" />
+      <workItem from="1575312572819" duration="309000" />
+      <workItem from="1575315268996" duration="26000" />
+      <workItem from="1575315569637" duration="1565000" />
+      <workItem from="1575317157968" duration="643000" />
+      <workItem from="1575323453104" duration="238000" />
+      <workItem from="1575372545643" duration="76000" />
+      <workItem from="1575373042661" duration="121000" />
+      <workItem from="1575415863662" duration="301000" />
+      <workItem from="1575448579972" duration="850000" />
+      <workItem from="1575458700782" duration="15000" />
+      <workItem from="1575459868772" duration="321000" />
+      <workItem from="1575461921258" duration="23000" />
+      <workItem from="1575478301303" duration="334000" />
+      <workItem from="1575478650130" duration="176000" />
+      <workItem from="1575478840242" duration="46000" />
+      <workItem from="1575478910905" duration="96000" />
+      <workItem from="1575479088846" duration="1315000" />
+      <workItem from="1575480435240" duration="174000" />
+      <workItem from="1575485595003" duration="1202000" />
+      <workItem from="1575490048207" duration="734000" />
+      <workItem from="1575490865644" duration="1046000" />
+      <workItem from="1575539801954" duration="227000" />
+      <workItem from="1575540567708" duration="75000" />
+      <workItem from="1575541956348" duration="4000" />
+      <workItem from="1575543145824" duration="102000" />
+      <workItem from="1575550106980" duration="37000" />
+      <workItem from="1575563707021" duration="3230000" />
+      <workItem from="1575633678992" duration="720000" />
+      <workItem from="1575674378869" duration="498000" />
+      <workItem from="1575674942964" duration="178000" />
+      <workItem from="1575691772912" duration="1017000" />
+      <workItem from="1575737770179" duration="182000" />
+      <workItem from="1575748915241" duration="109000" />
+      <workItem from="1575796687898" duration="14000" />
+      <workItem from="1575807633994" duration="303000" />
+      <workItem from="1575847722198" duration="20000" />
+      <workItem from="1575878370674" duration="15000" />
+      <workItem from="1576233185943" duration="29000" />
+      <workItem from="1576233234612" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en forme Exercices Pyramide">
       <created>1573647449298</created>
@@ -318,5 +382,103 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise en forme Exercices Pyramide" />
     <option name="LAST_COMMIT_MESSAGE" value="Mise en forme Exercices Pyramide" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="91" width="824" height="679" key="#CLI_Interpreters" timestamp="1575491182220">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="378" y="91" width="824" height="679" key="#CLI_Interpreters/0.0.1600.873@0.0.1600.873" timestamp="1575491182220" />
+    <state x="0" y="66" width="1590" height="734" key="#Live_Templates" timestamp="1575486039438">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="0" y="66" width="1590" height="734" key="#Live_Templates/0.0.1600.873@0.0.1600.873" timestamp="1575486039438" />
+    <state x="395" y="97" width="800" height="672" key="#Notifications" timestamp="1575540607061">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="395" y="97" width="800" height="672" key="#Notifications/0.0.1600.873@0.0.1600.873" timestamp="1575540607061" />
+    <state x="467" y="29" width="656" height="808" key="#PHP" timestamp="1575491185895">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="467" y="29" width="656" height="808" key="#PHP/0.0.1600.873@0.0.1600.873" timestamp="1575491185895" />
+    <state x="395" y="98" width="800" height="672" key="#Plugins" timestamp="1575149310325">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="395" y="98" width="800" height="672" key="#Plugins/0.0.1600.873@0.0.1600.873" timestamp="1575149310325" />
+    <state x="258" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575312733545">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="258" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.873@0.0.1600.873" timestamp="1575312733545" />
+    <state x="556" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575674722192">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="556" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1600.873@0.0.1600.873" timestamp="1575674722192" />
+    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576233203399">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.873@0.0.1600.873" timestamp="1576233203399" />
+    <state x="539" y="295" width="511" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1575807871584">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="539" y="295" width="511" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.873@0.0.1600.873" timestamp="1575807871584" />
+    <state width="1546" height="273" key="GridCell.Tab.0.bottom" timestamp="1575675132472">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.0.bottom/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
+    <state width="1546" height="273" key="GridCell.Tab.0.center" timestamp="1575675132471">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.0.center/0.0.1600.873@0.0.1600.873" timestamp="1575675132471" />
+    <state width="1546" height="273" key="GridCell.Tab.0.left" timestamp="1575675132471">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.0.left/0.0.1600.873@0.0.1600.873" timestamp="1575675132471" />
+    <state width="1546" height="273" key="GridCell.Tab.0.right" timestamp="1575675132472">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.0.right/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
+    <state width="1546" height="273" key="GridCell.Tab.1.bottom" timestamp="1575675132473">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.1.bottom/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
+    <state width="1546" height="273" key="GridCell.Tab.1.center" timestamp="1575675132472">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.1.center/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
+    <state width="1546" height="273" key="GridCell.Tab.1.left" timestamp="1575675132472">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.1.left/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
+    <state width="1546" height="273" key="GridCell.Tab.1.right" timestamp="1575675132472">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.1.right/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
+    <state width="1546" height="273" key="GridCell.Tab.2.bottom" timestamp="1575675132474">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.2.bottom/0.0.1600.873@0.0.1600.873" timestamp="1575675132474" />
+    <state width="1546" height="273" key="GridCell.Tab.2.center" timestamp="1575675132473">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.2.center/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
+    <state width="1546" height="273" key="GridCell.Tab.2.left" timestamp="1575675132473">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.2.left/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
+    <state width="1546" height="273" key="GridCell.Tab.2.right" timestamp="1575675132473">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state width="1546" height="273" key="GridCell.Tab.2.right/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
+    <state x="417" y="80" key="SettingsEditor" timestamp="1575748957921">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="417" y="80" key="SettingsEditor/0.0.1600.873@0.0.1600.873" timestamp="1575748957921" />
+    <state x="483" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1576233235272">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="483" y="264" key="com.intellij.ide.util.TipDialog/0.0.1600.873@0.0.1600.873" timestamp="1576233235272" />
+    <state x="216" y="163" width="1157" height="540" key="new project wizard" timestamp="1575461941328">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="216" y="163" width="1157" height="540" key="new project wizard/0.0.1600.873@0.0.1600.873" timestamp="1575461941328" />
   </component>
 </project>

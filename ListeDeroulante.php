@@ -1,8 +1,9 @@
 <?php
+
 include("common/header.php");
 ?>
 
-<h1>Sélection du personnage</h1>
+<h1>Liste Déroulante Sélection du personnage avec caractéristiques</h1>
 <div>
     <form method="get" action="#">
         <label for="choix">Personnage : </label>
@@ -12,19 +13,37 @@ include("common/header.php");
         </select>
         <input type="submit" value="Valider" />
     </form>
+    <br>
     <?php
     // Récupération et validation de la donnée nombreNotes
     // if (isset($_GET['choix'])) {
     // echo $_GET['choix'];
+    $tabFemme = array(
+        'nom' => 'Tata',
+        'prenom' => 'Yoyo',
+        'age' => 35,
+    );
+    $tabHomme = [
+        'nom' => 'Dupont',
+        'prenom' => 'Alfred',
+        'age' => 45,
+    ];
     if (isset($_GET['choix']) && $_GET['choix'] === 'femme') {
         echo '<img src="sources/images/playerF.png" alt="Femme">';
-    } else {
+        foreach ($tabFemme as $key => $value) {
+            echo "$key : $value <br>";
+        }
+    } elseif (isset($_GET['choix']) && $_GET['choix'] === 'homme') {
         echo "<img src=\"sources/images/player.png\" alt=\"Homme\">";
+        foreach ($tabHomme as $key => $value) {
+            echo "$key : $value <br>";
+        }
     }
     // }
     ?>
 </div>
 
 <?php
+
 include("common/footer.php");
 ?>

@@ -13,9 +13,7 @@
         h1{
             background-color: blue
         }
-
     </style> -->
-
 </head>
 
 <body>
@@ -28,6 +26,7 @@
             <li><a href="TrouverNombre.php">Trouver le nombre</a></li>
             <li><a href="Moyenne.php">Calculer la Moyenne</a></li>
             <li><a href="SelectionPersonnage.php">Sélection Personnage</a></li>
-
+            <li><a href="Tableaux.php">Tableaux</a></li>
+            <li><a href="ListeDeroulante.php">Liste Déroulante</a></li>
         </ul>
     </nav>
