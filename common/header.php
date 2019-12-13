@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <!-- vers les infos CSS -->
-    <link rel="stylesheet" href="main.css" /> 
+    <link rel="stylesheet" href="main.css" />
     <title>Site Exercices</title>
     <!-- <style>
         h1{
@@ -16,6 +17,7 @@
     </style> -->
 
 </head>
+
 <body>
     <nav>
         <ul>
@@ -25,6 +27,7 @@
             <li><a href="AireEtPerimetreDUnCercle.php">Cercle : Aire et Périmètre</a></li>
             <li><a href="TrouverNombre.php">Trouver le nombre</a></li>
             <li><a href="Moyenne.php">Calculer la Moyenne</a></li>
+            <li><a href="SelectionPersonnage.php">Sélection Personnage</a></li>
 
         </ul>
     </nav>
