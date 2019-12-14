@@ -3,17 +3,18 @@
 include("common/header.php");
 ?>
 
-<h1>Liste Déroulante Sélection du personnage avec caractéristiques</h1>
+<h1>Liste Déroulante Sans bouton de validation</h1>
 <div>
-    <form method="get" action="#">
+    <form action="#" method="GET">
         <label for="choix">Personnage : </label>
-        <select name="choix" id="choix">
-            <option value="femme">Femme</option>
-            <option value="homme">Homme</option>
+        <select name="choix" id="choix" onchange="submit()">
+            <option value="femme" <?php if (!isset($_GET['choix']) || $_GET['choix'] === 'femme')  echo "selected"; ?>>Femme</option>
+            <option value="homme" <?php if (isset($_GET['choix']) && $_GET['choix'] === 'homme')  echo "selected"; ?>>Homme</option>
+
+
         </select>
-        <input type="submit" value="Valider" />
+        <br>
     </form>
-    <br>
     <?php
     // Récupération et validation de la donnée nombreNotes
     // if (isset($_GET['choix'])) {
@@ -28,12 +29,12 @@ include("common/header.php");
         'prenom' => 'Alfred',
         'age' => 45,
     ];
-    if (isset($_GET['choix']) && $_GET['choix'] === 'femme') {
+    if (!isset($_GET['choix']) || $_GET['choix'] === 'femme') {
         echo '<img src="sources/images/playerF.png" alt="Femme">';
         foreach ($tabFemme as $key => $value) {
             echo "$key : $value <br>";
         }
-    } elseif (isset($_GET['choix']) && $_GET['choix'] === 'homme') {
+    } else if (isset($_GET['choix']) && $_GET['choix'] === 'homme') {
         echo "<img src=\"sources/images/player.png\" alt=\"Homme\">";
         foreach ($tabHomme as $key => $value) {
             echo "$key : $value <br>";

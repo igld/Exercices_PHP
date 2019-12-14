@@ -27,6 +27,9 @@
             <li><a href="Moyenne.php">Calculer la Moyenne</a></li>
             <li><a href="SelectionPersonnage.php">Sélection Personnage</a></li>
             <li><a href="Tableaux.php">Tableaux</a></li>
-            <li><a href="ListeDeroulante.php">Liste Déroulante</a></li>
+            <li><a href="ListeDeroulante.php">Liste Déroulante 0</a></li>
+            <li><a href="ListeDeroulanteSansBouton.php">Liste Déroulante 1</a></li>
+            <li><a href="ListeDeroulanteSansBouton2.php">Liste 2</a></li>
+
         </ul>
     </nav>
