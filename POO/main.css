@@ -1,0 +1,36 @@
+nav ul {
+  list-style: none;
+  /* border: solid; */
+  /*  padding-left: 20; */
+  padding-left: 0;
+  margin-top: 0;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  background-color: teal;
+}
+nav li {
+  display: inline-flex;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+nav li a:hover {
+  background-color: rgb(0, 110, 255);
+}
+
+h1 {
+  text-align: center;
+  color: teal;
+}
+
+div {
+  margin: 20px;
+  /* border: 1px solid red; */
+}
+
+img {
+  /* border: solid 1px rgb(0, 0, 0); */
+  float: left;
+}
