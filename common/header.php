@@ -28,8 +28,9 @@
             <li><a href="SelectionPersonnage.php">Sélection Personnage</a></li>
             <li><a href="Tableaux.php">Tableaux</a></li>
             <li><a href="ListeDeroulante.php">Liste Déroulante 0</a></li>
-            <li><a href="ListeDeroulanteSansBouton.php">Liste Déroulante 1</a></li>
-            <li><a href="ListeDeroulanteSansBouton2.php">Liste 2</a></li>
+            <li><a href="ListeDeroulanteSansBouton.php">Liste Déroulante Sans Bouton 1</a></li>
+            <li><a href="ListeDeroulanteSansBouton2.php">Liste Déroulante Sans Bouton 2</a></li>
+            <li><a href="TableauDeTableauAssociatif.php">Tableau de Tableau Associatif</a></li>
 
         </ul>
     </nav>

@@ -4,6 +4,8 @@ include("common/header.php");
 
 
 <h1>Index</h1>
+
+<a href="POO/">POO</a>
 <div>
     <form action="#" method="GET">
         <fieldset>

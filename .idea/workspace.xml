@@ -276,6 +276,12 @@
       <workItem from="1576233234612" duration="43000" />
       <workItem from="1576238903339" duration="72000" />
       <workItem from="1576282224293" duration="7000" />
+      <workItem from="1576978966051" duration="39000" />
+      <workItem from="1576979235837" duration="60000" />
+      <workItem from="1576991003731" duration="162000" />
+      <workItem from="1576991185909" duration="6000" />
+      <workItem from="1577013472973" duration="29000" />
+      <workItem from="1577818476137" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en forme Exercices Pyramide">
       <created>1573647449298</created>
@@ -399,10 +405,10 @@
       <screen x="0" y="0" width="1600" height="873" />
     </state>
     <state x="556" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1600.873@0.0.1600.873" timestamp="1575674722192" />
-    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576233203399">
+    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577818499690">
       <screen x="0" y="0" width="1600" height="873" />
     </state>
-    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.873@0.0.1600.873" timestamp="1576233203399" />
+    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.873@0.0.1600.873" timestamp="1577818499690" />
     <state x="539" y="295" width="511" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1575807871584">
       <screen x="0" y="0" width="1600" height="873" />
     </state>
@@ -459,10 +465,10 @@
       <screen x="0" y="0" width="1600" height="873" />
     </state>
     <state x="417" y="80" key="SettingsEditor/0.0.1600.873@0.0.1600.873" timestamp="1575748957921" />
-    <state x="483" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1576282224325">
+    <state x="483" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1577818476304">
       <screen x="0" y="0" width="1600" height="873" />
     </state>
-    <state x="483" y="264" key="com.intellij.ide.util.TipDialog/0.0.1600.873@0.0.1600.873" timestamp="1576282224325" />
+    <state x="483" y="264" key="com.intellij.ide.util.TipDialog/0.0.1600.873@0.0.1600.873" timestamp="1577818476304" />
     <state x="216" y="163" width="1157" height="540" key="new project wizard" timestamp="1575461941328">
       <screen x="0" y="0" width="1600" height="873" />
     </state>
