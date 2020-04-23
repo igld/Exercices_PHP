@@ -4,9 +4,31 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f031872-1dc9-4739-935e-9e10186cb42d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/POO/personnageObjet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListeDeroulante.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListeDeroulante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/Personnage.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/personnage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/common/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -31,9 +51,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Exercices" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +84,6 @@
   <component name="ProjectId" id="1TUHlHoLORq5xY1ntP6c31yV4Fo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -75,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/POO" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -112,18 +128,6 @@
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -282,6 +286,12 @@
       <workItem from="1576991185909" duration="6000" />
       <workItem from="1577013472973" duration="29000" />
       <workItem from="1577818476137" duration="622000" />
+      <workItem from="1587190600565" duration="628000" />
+      <workItem from="1587192082677" duration="623000" />
+      <workItem from="1587193324595" duration="59000" />
+      <workItem from="1587193413214" duration="30000" />
+      <workItem from="1587321988064" duration="393000" />
+      <workItem from="1587322789413" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en forme Exercices Pyramide">
       <created>1573647449298</created>
@@ -301,7 +311,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -358,120 +368,31 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-        <option value="2" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise en forme Exercices Pyramide" />
     <option name="LAST_COMMIT_MESSAGE" value="Mise en forme Exercices Pyramide" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="91" width="824" height="679" key="#CLI_Interpreters" timestamp="1575491182220">
+    <state x="545" y="293" width="500" height="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587322121183">
       <screen x="0" y="0" width="1600" height="873" />
     </state>
-    <state x="378" y="91" width="824" height="679" key="#CLI_Interpreters/0.0.1600.873@0.0.1600.873" timestamp="1575491182220" />
-    <state x="0" y="66" width="1590" height="734" key="#Live_Templates" timestamp="1575486039438">
+    <state x="545" y="293" width="500" height="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.873@0.0.1600.873" timestamp="1587322121183" />
+    <state x="583" y="193" width="424" height="479" key="FileChooserDialogImpl" timestamp="1587322809960">
       <screen x="0" y="0" width="1600" height="873" />
     </state>
-    <state x="0" y="66" width="1590" height="734" key="#Live_Templates/0.0.1600.873@0.0.1600.873" timestamp="1575486039438" />
-    <state x="395" y="97" width="800" height="672" key="#Notifications" timestamp="1575540607061">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="395" y="97" width="800" height="672" key="#Notifications/0.0.1600.873@0.0.1600.873" timestamp="1575540607061" />
-    <state x="467" y="29" width="656" height="808" key="#PHP" timestamp="1575491185895">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="467" y="29" width="656" height="808" key="#PHP/0.0.1600.873@0.0.1600.873" timestamp="1575491185895" />
-    <state x="395" y="98" width="800" height="672" key="#Plugins" timestamp="1575149310325">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="395" y="98" width="800" height="672" key="#Plugins/0.0.1600.873@0.0.1600.873" timestamp="1575149310325" />
-    <state x="258" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575312733545">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="258" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.873@0.0.1600.873" timestamp="1575312733545" />
-    <state x="556" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575674722192">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="556" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1600.873@0.0.1600.873" timestamp="1575674722192" />
-    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577818499690">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="483" y="167" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.873@0.0.1600.873" timestamp="1577818499690" />
-    <state x="539" y="295" width="511" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1575807871584">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="539" y="295" width="511" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.873@0.0.1600.873" timestamp="1575807871584" />
-    <state width="1546" height="273" key="GridCell.Tab.0.bottom" timestamp="1575675132472">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.0.bottom/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
-    <state width="1546" height="273" key="GridCell.Tab.0.center" timestamp="1575675132471">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.0.center/0.0.1600.873@0.0.1600.873" timestamp="1575675132471" />
-    <state width="1546" height="273" key="GridCell.Tab.0.left" timestamp="1575675132471">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.0.left/0.0.1600.873@0.0.1600.873" timestamp="1575675132471" />
-    <state width="1546" height="273" key="GridCell.Tab.0.right" timestamp="1575675132472">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.0.right/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
-    <state width="1546" height="273" key="GridCell.Tab.1.bottom" timestamp="1575675132473">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.1.bottom/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
-    <state width="1546" height="273" key="GridCell.Tab.1.center" timestamp="1575675132472">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.1.center/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
-    <state width="1546" height="273" key="GridCell.Tab.1.left" timestamp="1575675132472">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.1.left/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
-    <state width="1546" height="273" key="GridCell.Tab.1.right" timestamp="1575675132472">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.1.right/0.0.1600.873@0.0.1600.873" timestamp="1575675132472" />
-    <state width="1546" height="273" key="GridCell.Tab.2.bottom" timestamp="1575675132474">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.2.bottom/0.0.1600.873@0.0.1600.873" timestamp="1575675132474" />
-    <state width="1546" height="273" key="GridCell.Tab.2.center" timestamp="1575675132473">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.2.center/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
-    <state width="1546" height="273" key="GridCell.Tab.2.left" timestamp="1575675132473">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.2.left/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
-    <state width="1546" height="273" key="GridCell.Tab.2.right" timestamp="1575675132473">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state width="1546" height="273" key="GridCell.Tab.2.right/0.0.1600.873@0.0.1600.873" timestamp="1575675132473" />
-    <state x="417" y="80" key="SettingsEditor" timestamp="1575748957921">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="417" y="80" key="SettingsEditor/0.0.1600.873@0.0.1600.873" timestamp="1575748957921" />
-    <state x="483" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1577818476304">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="483" y="264" key="com.intellij.ide.util.TipDialog/0.0.1600.873@0.0.1600.873" timestamp="1577818476304" />
-    <state x="216" y="163" width="1157" height="540" key="new project wizard" timestamp="1575461941328">
-      <screen x="0" y="0" width="1600" height="873" />
-    </state>
-    <state x="216" y="163" width="1157" height="540" key="new project wizard/0.0.1600.873@0.0.1600.873" timestamp="1575461941328" />
+    <state x="583" y="193" width="424" height="479" key="FileChooserDialogImpl/0.0.1600.873@0.0.1600.873" timestamp="1587322809960" />
   </component>
 </project>

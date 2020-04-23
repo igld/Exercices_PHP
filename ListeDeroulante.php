@@ -35,7 +35,7 @@ include("common/header.php");
         foreach ($tabFemme as $key => $value) {
             echo "$key : $value <br>";
         }
-    } else if (isset($_GET['choix']) && $_GET['choix'] === 'homme') {
+    } elseif (isset($_GET['choix']) && $_GET['choix'] === 'homme') {
         echo "<img src=\"sources/images/player.png\" alt=\"Homme\">";
         foreach ($tabHomme as $key => $value) {
             echo "$key : $value <br>";
