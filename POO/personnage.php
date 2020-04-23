@@ -1,6 +1,7 @@
 <?php
+
 include("common/header.php");
-include ("common/menu.php");
+include("common/menu.php");
 
 $p1 = [
     "Nom" => "Luke",
@@ -45,6 +46,7 @@ function afficherPerso($personnage)
         echo "<b>" . $index . "</b> : " . $value . "<br/>";
     }
 }
+
 ?>
 <?php
 include("common/footer.php");

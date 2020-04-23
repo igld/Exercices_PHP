@@ -24,11 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f031872-1dc9-4739-935e-9e10186cb42d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/POO/personnageObjet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListeDeroulante.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListeDeroulante.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/Personnage.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/personnage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/POO/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/POO/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/personnage.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/personnage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/personnageObjet.php" beforeDir="false" afterPath="$PROJECT_DIR$/POO/personnageObjet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,6 +293,7 @@
       <workItem from="1587193413214" duration="30000" />
       <workItem from="1587321988064" duration="393000" />
       <workItem from="1587322789413" duration="26000" />
+      <workItem from="1587640074850" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en forme Exercices Pyramide">
       <created>1573647449298</created>
@@ -394,5 +396,9 @@
       <screen x="0" y="0" width="1600" height="873" />
     </state>
     <state x="583" y="193" width="424" height="479" key="FileChooserDialogImpl/0.0.1600.873@0.0.1600.873" timestamp="1587322809960" />
+    <state x="598" y="352" width="393" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587640113338">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="598" y="352" width="393" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.873@0.0.1600.873" timestamp="1587640113338" />
   </component>
 </project>
