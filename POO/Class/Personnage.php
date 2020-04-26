@@ -1,12 +1,18 @@
 <?php
 class Personnage
 {
-    public string $nom;
-    public string $img;
-    public int $age;
-    public bool $sexe;
-    public int $force;
-    public int $agilite;
+    private string $nom;
+    private string $img;
+    private int $age;
+    private bool $sexe;
+    private int $force;
+    private int $agilite;
+
+    const HOMME = true;
+    const FEMME = false;
+    const FORCE_MAX =9;
+    const FORCE_MED = 6;
+    const FORCE_MIN = 3;
 
     //Constructor
     public function __construct($nom2, $img, $age, $sexe, $force, $agilite)
@@ -16,6 +22,104 @@ class Personnage
         $this->age = $age;
         $this->sexe = $sexe;
         $this->force = $force;
+        $this->agilite = $agilite;
+    }
+
+    // Getter et Setter
+
+    /**
+     * @return string
+     */
+    public function getNom(): string
+    {
+        return $this->nom;
+    }
+
+    /**
+     * @return string
+     */
+    public function getImg(): string
+    {
+        return $this->img;
+    }
+
+    /**
+     * @return int
+     */
+    public function getAge(): int
+    {
+        return $this->age;
+    }
+
+    /**
+     * @return bool
+     */
+    public function getSexe(): bool
+    {
+        return $this->sexe;
+    }
+
+    /**
+     * @return int
+     */
+    public function getForce(): int
+    {
+        return $this->force;
+    }
+
+    /**
+     * @return int
+     */
+    public function getAgilite(): int
+    {
+        return $this->agilite;
+    }
+    //////// Les SETTERS
+    /**
+     * @param string $nom
+     */
+    public function setNom(string $nom): void
+    {
+        $this->nom = $nom;
+    }
+
+    /**
+     * @param string $img
+     */
+    public function setImg(string $img): void
+    {
+        $this->img = $img;
+    }
+
+    /**
+     * @param int $age
+     */
+    public function setAge(int $age): void
+    {
+        $this->age = $age;
+    }
+
+    /**
+     * @param bool $sexe
+     */
+    public function setSexe(bool $sexe): void
+    {
+        $this->sexe = $sexe;
+    }
+
+    /**
+     * @param int $force
+     */
+    public function setForce(int $force): void
+    {
+        $this->force = $force;
+    }
+
+    /**
+     * @param int $agilite
+     */
+    public function setAgilite(int $agilite): void
+    {
         $this->agilite = $agilite;
     }
 
