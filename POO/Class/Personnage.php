@@ -1,6 +1,12 @@
 <?php
+
 class Personnage
 {
+    const HOMME = true;
+    const FEMME = false;
+    const FORCE_MAX = 9;
+    const FORCE_MED = 6;
+    const FORCE_MIN = 3;
     private string $nom;
     private string $img;
     private int $age;
@@ -8,13 +14,8 @@ class Personnage
     private int $force;
     private int $agilite;
 
-    const HOMME = true;
-    const FEMME = false;
-    const FORCE_MAX =9;
-    const FORCE_MED = 6;
-    const FORCE_MIN = 3;
-
     //Constructor
+
     public function __construct($nom2, $img, $age, $sexe, $force, $agilite)
     {
         $this->nom = $nom2;
@@ -36,51 +37,19 @@ class Personnage
     }
 
     /**
-     * @return string
-     */
-    public function getImg(): string
-    {
-        return $this->img;
-    }
-
-    /**
-     * @return int
-     */
-    public function getAge(): int
-    {
-        return $this->age;
-    }
-
-    /**
-     * @return bool
-     */
-    public function getSexe(): bool
-    {
-        return $this->sexe;
-    }
-
-    /**
-     * @return int
-     */
-    public function getForce(): int
-    {
-        return $this->force;
-    }
-
-    /**
-     * @return int
-     */
-    public function getAgilite(): int
-    {
-        return $this->agilite;
-    }
-    //////// Les SETTERS
-    /**
      * @param string $nom
      */
     public function setNom(string $nom): void
     {
         $this->nom = $nom;
+    }
+
+    /**
+     * @return string
+     */
+    public function getImg(): string
+    {
+        return $this->img;
     }
 
     /**
@@ -92,11 +61,28 @@ class Personnage
     }
 
     /**
+     * @return int
+     */
+    public function getAge(): int
+    {
+        return $this->age;
+    }
+
+    /**
      * @param int $age
      */
     public function setAge(int $age): void
     {
         $this->age = $age;
+    }
+    //////// Les SETTERS
+
+    /**
+     * @return bool
+     */
+    public function getSexe(): bool
+    {
+        return $this->sexe;
     }
 
     /**
@@ -108,11 +94,27 @@ class Personnage
     }
 
     /**
+     * @return int
+     */
+    public function getForce(): int
+    {
+        return $this->force;
+    }
+
+    /**
      * @param int $force
      */
     public function setForce(int $force): void
     {
         $this->force = $force;
+    }
+
+    /**
+     * @return int
+     */
+    public function getAgilite(): int
+    {
+        return $this->agilite;
     }
 
     /**
@@ -124,6 +126,18 @@ class Personnage
     }
 
     // ajouter la fonction affichage des informations du personnage
+
+    public function afficherInfosTemplate()
+    {
+        echo "<div class='gauche'>";
+        echo "<img src = 'sources/images/" . $this->img . "' alt = 'player " . $this->nom . "' />";
+        echo "</div>";
+        echo "<div class='gauche'>";
+        $this->afficherInfos();
+        echo "</div>";
+    }
+
+    // Affichage image et infos perso
 
     public function afficherInfos()
     {
@@ -137,15 +151,5 @@ class Personnage
         }
         echo '<b>Force : </b> ' . $this->force . '</br>';
         echo '<b>Agilité : </b> ' . $this->agilite . '</br>';
-    }
-    // Affichage image et infos perso
-    public function afficherInfosTemplate()
-    {
-        echo "<div class='gauche'>";
-        echo "<img src = 'sources/images/" . $this->img . "' alt = 'player " . $this->nom . "' />";
-        echo "</div>";
-        echo "<div class='gauche'>";
-        $this->afficherInfos();
-        echo "</div>";
     }
 }
