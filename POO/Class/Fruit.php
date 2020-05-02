@@ -1,7 +1,5 @@
 <?php
 
-class Fruit{
-
-
-
+class Fruit
+{
 }
