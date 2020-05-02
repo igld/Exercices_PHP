@@ -9,7 +9,7 @@ include("common/menu.php");
 ?>
 
 
-<h1> Exo Fruits : </h1>
+    <h1> Exo Fruits : </h1>
 
 <?php
 echo "test";
