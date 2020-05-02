@@ -9,7 +9,7 @@ include("common/menu.php");
 ?>
 
 
-<h1> Personnage : </h1>
+<h1> Personnage Objet: </h1>
 
 <?php
 // creation personnage grace au constructor
@@ -38,6 +38,18 @@ $p3->setNom("Titi");
 $p3->afficherInfosTemplate();
 
 echo "-------------------------------------------------------<br/>";
+
+echo "<pre>";
+print_r(Personnage::getListePersonnages());
+echo "</pre>";
+
+
+$persos = Personnage::getListePersonnages();
+
+foreach ($persos as $perso) {
+    $perso->afficherInfosTemplate();
+    echo "-------------------------------------------------------<br/>";
+}
 
 ?>
 

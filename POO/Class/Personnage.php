@@ -2,6 +2,8 @@
 
 class Personnage
 {
+    private static $personnages = []; //static se réfère à la classe elle même
+
     const HOMME = true;
     const FEMME = false;
     const FORCE_MAX = 9;
@@ -24,9 +26,18 @@ class Personnage
         $this->sexe = $sexe;
         $this->force = $force;
         $this->agilite = $agilite;
+        self::$personnages[] =$this;
     }
 
     // Getter et Setter
+
+    /**
+     * @return array
+     */
+    public static function getListePersonnages(): array
+    {
+        return self::$personnages;
+    }
 
     /**
      * @return string
